@@ -1,7 +1,15 @@
-.miler{
-    background: #2c3e50;
-    color: #fff;
+@font-face {
+    font-family: "mifuente";
+    src: url('Organa-Light.eot');
+    src: local('Organa Light'), local('Organa-Light'),
+        url('Organa-Light.eot?#iefix') format('embedded-opentype'),
+        url('Organa-Light.woff2') format('woff2'),
+        url('Organa-Light.woff') format('woff'),
+        url('Organa-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
 }
+
 .main{
     background: #f2f2f2;
 }
@@ -16,4 +24,8 @@ aside{
 footer{
     background: #16a085;
     color: #fff;
+}
+h2{
+    text-align: right;
+    font-family: "mifuente";
 }
